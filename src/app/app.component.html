@@ -3,7 +3,7 @@
     <ul>
       <li class="menu-item home-item">Home</li>
       <li class="menu-item">Services</li>
-      <li class="menu-item" routerLink="/news">News</li>
+      <li class="menu-item" routerLink="/news" [ngClass]="{'active-item': matchRouter('news')}">News</li>
       <li class="menu-item">Blog</li>
       <li class="menu-item">Contact</li>
     </ul>
